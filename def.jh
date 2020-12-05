@@ -1,0 +1,16 @@
+
+entity Notification {
+	id Long,
+    description String
+}
+
+entity Address {
+	id Long,
+	name String required,
+    sipNumber String required,
+    description String
+}
+
+relationship OneToMany {
+	Notification{name} to Address
+}
