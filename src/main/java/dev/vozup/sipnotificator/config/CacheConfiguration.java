@@ -47,6 +47,9 @@ public class CacheConfiguration {
             createCache(cm, dev.vozup.sipnotificator.domain.User.class.getName());
             createCache(cm, dev.vozup.sipnotificator.domain.Authority.class.getName());
             createCache(cm, dev.vozup.sipnotificator.domain.User.class.getName() + ".authorities");
+            createCache(cm, dev.vozup.sipnotificator.domain.Notification.class.getName());
+            createCache(cm, dev.vozup.sipnotificator.domain.Notification.class.getName() + ".addresses");
+            createCache(cm, dev.vozup.sipnotificator.domain.Address.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
