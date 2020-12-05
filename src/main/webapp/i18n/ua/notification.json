@@ -1,0 +1,23 @@
+{
+  "sipNotificatorApp": {
+    "notification": {
+      "home": {
+        "title": "Notifications",
+        "createLabel": "Створити новий Notification",
+        "createOrEditLabel": "Створити чи редагувати Notification",
+        "notFound": "No Notifications found"
+      },
+      "created": "Новий Notification створений з ідентифікатором {{ param }}",
+      "updated": "Notification оновлений з ідентифікатором {{ param }}",
+      "deleted": "Notification видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Notification {{ id }}?"
+      },
+      "detail": {
+        "title": "Notification"
+      },
+      "description": "Description",
+      "address": "Address"
+    }
+  }
+}

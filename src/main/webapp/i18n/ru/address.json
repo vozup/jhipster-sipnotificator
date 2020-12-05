@@ -1,0 +1,25 @@
+{
+  "sipNotificatorApp": {
+    "address": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "Создать новый Address",
+        "createOrEditLabel": "Создать или отредактировать Address",
+        "notFound": "No Addresses found"
+      },
+      "created": "Новый Address создан с идентификатором {{ param }}",
+      "updated": "Address обновлен с идентификатором {{ param }}",
+      "deleted": "Address удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Address {{ id }}?"
+      },
+      "detail": {
+        "title": "Address"
+      },
+      "name": "Name",
+      "sipNumber": "Sip Number",
+      "description": "Description",
+      "notification": "Notification"
+    }
+  }
+}
